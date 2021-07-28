@@ -1,5 +1,7 @@
 # Statetrace Django Demo
 
+Works with [Statetrace](https://statetrace.com).
+
 Run demo with docker-compose.
 
 ```bash
