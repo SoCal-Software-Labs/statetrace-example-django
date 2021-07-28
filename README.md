@@ -3,6 +3,7 @@
 Run demo with docker-compose.
 
 ```bash
+docker-compose run web createsuperuser
 docker-compose up
 ```
 
