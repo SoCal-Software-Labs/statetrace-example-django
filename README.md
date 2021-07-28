@@ -5,7 +5,7 @@ Works with [Statetrace](https://statetrace.com).
 Run demo with docker-compose.
 
 ```bash
-docker-compose run web createsuperuser
+docker-compose run web python manage.py createsuperuser
 docker-compose up
 ```
 
