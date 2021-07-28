@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'statetrace_django',
+    'statetrace_django.apps.StatetraceConfig',
 ]
 
 MIDDLEWARE = [
@@ -82,7 +82,7 @@ DATABASES = {
         "USER": "postgres",
         "PASSWORD": "postgres",
         "HOST": "db",
-        "PORT": "5433",
+        "PORT": "5432",
     }
 }
 
