@@ -1,5 +1,7 @@
 from django.contrib import admin
 
+from statetrace_django.admin import StateTraceAdmin
+
 from .models import Choice, Question
 
 
@@ -8,7 +10,7 @@ class ChoiceInline(admin.TabularInline):
     extra = 3
 
 
-class QuestionAdmin(admin.ModelAdmin):
+class QuestionAdmin(StateTraceAdmin):
     fieldsets = [
         (None,               {'fields': ['question_text']}),
         ('Date information', {'fields': ['pub_date'], 'classes': ['collapse']}),
