@@ -3,10 +3,13 @@
 Works with [Statetrace](https://statetrace.com).
 
 Run demo with docker-compose.
+```bash
+docker-compose up
+```
 
+In other terminal create the superuser to login:
 ```bash
 docker-compose run web python manage.py createsuperuser
-docker-compose up
 ```
 
 ## Routes
