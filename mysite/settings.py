@@ -134,3 +134,5 @@ STATETRACE_REQUEST_FILTER = "polls.statetrace.filter_func"
 STATETRACE_APPLICATION_ID = "our-prod-app" # Identify the code base
 
 STATETRACE_APPLICATION_VERSION = "1.0" # Should be a git tag or commit to identify the point in code
+
+STATETRACE_SEARCH_URL = "http://localhost:9999/organizations/1/environments/1/frames?database_id=1"
